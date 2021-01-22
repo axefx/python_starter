@@ -11,3 +11,7 @@ pytest = "*"
 
 [requires]
 python_version = "3.9"
+
+[scripts]
+test = "python -m pytest -vs"
+lint = "autopep8 --diff"
