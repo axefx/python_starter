@@ -19,10 +19,10 @@ pipenv shell
 
 ### test
 ```shell
-python -m pytest -vs
+pipenv run tests
 ```
 ```shell
-autopep8 <filename>
+pipenv lint <filename>
 ```
 
 ### deploy
